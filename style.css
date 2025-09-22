@@ -115,7 +115,8 @@
 }
 
 /* Optional: smooth hover effect for overlay */
-section .absolute:hover {
-  transform: scale(1.02);
-  transition: transform 0.3s ease-in-out;
+.hero-section .carousel-overlay:hover,
+.founder-overlay:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
 }
